@@ -159,4 +159,20 @@ label{
     bottom: 33px;
     left: 99PX;
 }
+.Upcoming-Events h1{
+    color:#242565;
+    font-family:sans-serif;
+    font-size:40px;
+    margin:-25px 0 0 100px ;
+}
+.Upcoming-Events select{
+    background-color: #F2F4FF;
+    color:#1D275F;
+    border: 1px solid #F2F4FF;
+    border-radius:50px;
+    width:168px;
+    height:46px;
+    display:inline-flex;
+    justify-content:flex-end;
+}
 
