@@ -1,0 +1,103 @@
+.bar-per{
+    position:relative;
+    bottom:8px;
+}
+.bar-img{
+    width:1497px;
+    height:750px;
+}
+.back-img{
+    width:1497px;
+    height:750px;
+    background-color:#5522CC;
+    background-image:linear-gradient(to bottom right,#ED4690,#5522CC);
+    position: absolute;
+    bottom:166px;
+    opacity:80%;
+}
+.logo{
+    width: 152.75px;
+    height: 38.56px;
+    position: absolute;
+    bottom: -54px;
+    top: 28px;
+    left: 143px;
+}
+ul{
+    list-style-type:none;
+    list-style-position: inherit;
+}
+ul li{
+    display:inline;
+    margin:35px;
+    font-family:sans-serif;
+    font-weight:500;
+    cursor: pointer;
+    position: relative;
+    bottom: 744px;
+    left: 820px;
+    color:#fff;
+}
+.login-butt button{
+    margin:35px;
+    font-family:sans-serif;
+    font-weight:500;
+    cursor: pointer;
+    position: relative;
+    bottom: 822px;
+    left: 1225px;
+    width:113.62px;
+    height:41px;
+    background:none;
+    outline:none;
+    border:3px solid #fff ;
+    border-radius:50px;
+    color:#fff;
+    font-weight:500;
+}
+.img-kpop{
+    position:absolute;
+    left:200px;
+    top:200px;
+}
+pre{
+    position:absolute;
+    left:900px;
+    top:250px;
+    font-size:40px;
+    font-family:Proxima Nova,sans-serif    ;
+    color:#fff;
+    line-height:48.72px;
+
+}
+p{
+    position:absolute;
+    left:900px;
+    top:388px;
+    font-size:18px;
+    font-family:Proxima Nova,sans-serif    ;
+    color:#fff;
+    line-height:22.4px;
+}
+.butt-bott button{
+    position: relative;
+    bottom: 455px;
+    left: 842px;
+    margin: 20px;
+    width:182px;
+    height:60px;
+    border-radius:50px;
+    outline: none;
+    font-weight:bold;
+    font-size:18px;
+    color: #fff;
+    cursor: pointer;
+}
+.get{
+    border:1px solid #F5167E;
+    background:#F5167E;
+}
+.Learn{
+    border:2px solid #fff;
+    background:none;
+}
