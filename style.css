@@ -13,7 +13,7 @@
     background-image:linear-gradient(to bottom right,#ED4690,#5522CC);
     position: absolute;
     bottom:166px;
-    opacity:80%;
+    opacity:90%;
 }
 .logo{
     width: 152.75px;
@@ -27,7 +27,7 @@ ul{
     list-style-type:none;
     list-style-position: inherit;
 }
-ul li{
+ul li {
     display:inline;
     margin:35px;
     font-family:sans-serif;
@@ -37,6 +37,10 @@ ul li{
     bottom: 744px;
     left: 820px;
     color:#fff;
+}
+ul li a{
+    text-decoration:none;
+    color: #fff;
 }
 .login-butt button{
     margin:35px;
@@ -101,3 +105,58 @@ p{
     border:2px solid #fff;
     background:none;
 }
+.search{
+    width:1086px;
+    height:140px;
+    background-color:#242565;
+    border:1px solid #242565;
+    border-radius:20px;
+    position: absolute;
+    left:177px;
+    top: 650px;
+    box-shadow: 0px 6px 20px 10px #242565;
+}
+.search input,select{
+    margin-top: 25px;
+    width: 289px;
+    height: 65px;
+    background:none;
+    border:none;
+    border-bottom:1px solid #7778B0;
+    font-size:22px;
+    font-family:sans-serif;
+    color:#fff;
+    outline:none;
+}
+select option{
+    color:black;
+}
+.search input::placeholder{
+    font-size:22px;
+    font-family:sans-serif;
+    color:#fff;
+    font-weight: 500;
+    
+}
+label{
+    color:#fff;
+    font-size:16px;
+    font-family:sans-serif;
+    font-weight: 200; 
+}
+.place{
+    position: relative;
+    bottom: 33px;
+    left: 47px;
+}
+.time{
+    position: relative;
+    bottom: 33px;
+    left: 38px;
+}
+.event{
+    position: relative;
+    bottom: 33px;
+    left: 99PX;
+}
+
