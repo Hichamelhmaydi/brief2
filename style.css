@@ -1,3 +1,10 @@
+*{
+    font-family:sans-serif;
+    scrollbar-width:none;
+}
+body{
+    width:1522px;
+}
 .bar-per{
     position:relative;
     bottom:8px;
@@ -30,7 +37,6 @@ ul{
 ul li {
     display:inline;
     margin:35px;
-    font-family:sans-serif;
     font-weight:500;
     cursor: pointer;
     position: relative;
@@ -44,7 +50,6 @@ ul li a{
 }
 .login-butt button{
     margin:35px;
-    font-family:sans-serif;
     font-weight:500;
     cursor: pointer;
     position: relative;
@@ -69,7 +74,6 @@ ul li a{
     left:900px;
     top:250px;
     font-size:40px;
-    font-family:Proxima Nova,sans-serif    ;
     color:#fff;
     line-height:48.72px;
 
@@ -79,7 +83,6 @@ ul li a{
     left:900px;
     top:388px;
     font-size:18px;
-    font-family:Proxima Nova,sans-serif    ;
     color:#fff;
     line-height:22.4px;
 }
@@ -124,7 +127,6 @@ ul li a{
     border:none;
     border-bottom:1px solid #7778B0;
     font-size:22px;
-    font-family:sans-serif;
     color:#fff;
     outline:none;
 }
@@ -133,7 +135,6 @@ select option{
 }
 .search input::placeholder{
     font-size:22px;
-    font-family:sans-serif;
     color:#fff;
     font-weight: 500;
     
@@ -141,7 +142,6 @@ select option{
 label{
     color:#fff;
     font-size:16px;
-    font-family:sans-serif;
     font-weight: 200; 
 }
 .place{
@@ -157,17 +157,14 @@ label{
 .event{
     position: relative;
     bottom: 33px;
-    left: 99PX;
-    
+    left: 99PX; 
 }
 
 .Upcoming-Events h1{
     color:#242565;
-    font-family:sans-serif;
     font-size:40px;
     margin-left: 139px;
     margin-top: 19px;
-   
 }
 .Upcoming-Events select{
     background-color: #F2F4FF;
@@ -178,13 +175,11 @@ label{
     height:46px;
     font-size:14px;
     padding-left:50px;
-  
 }
 .Upcoming-Events{
     display:inline-flex;
     justify-content:space-between;
     width: 1341px;
-
 }
 .Upcoming-img{
     width:1086px;
@@ -207,13 +202,11 @@ margin:30px 0px 0px 114px;
     padding-left: 97px;
     margin-top: -21px;
     font-weight:500;
-    font-family: sans-serif;
     line-height:120%;
 }
 .imge pre{
     margin-left:96px;
     font-size:14px;
-    font-family: sans-serif;
     color:#6A6A6A;
     line-height:150%;
 }
@@ -236,7 +229,6 @@ margin:30px 0px 0px 114px;
     color: #3D37F1;
     cursor: pointer;
     border:2px solid #3D37F1;
-    font-family: sans-serif;
     background:none;
 }
 .load{
@@ -244,9 +236,89 @@ margin:30px 0px 0px 114px;
     display: flex;
     justify-content:center;
 }
-.brand{
-    width:auto;
-    height:100px;
-    background-color:#EEE1FF;
-    
+.month{
+    font-size:11.37px;
+    font-weight: 500;
+    color: #3D37F1;
 }
+.day{
+    font-size:28.43px;
+    font-weight: 500;
+}
+.APR-14-1{
+    position: absolute;
+    top: 1386px;
+    left: 176px;
+}
+.AUG-20-1{
+    position: absolute;
+    top: 1386px;
+    left: 574px;
+}
+.SEP-18-1{
+    position: absolute;
+    top: 1386px;
+    left: 979px;
+}
+.APR-14-2{
+    position: absolute;
+    top: 1805px;
+    left: 176px;
+}
+.AUG-20-2{
+    position: absolute;
+    top:1805px;
+    left: 574px;
+}
+.SEP-18-2{
+    position: absolute;
+    top:1805px;
+    left: 979px;
+}
+.brand{
+    width: 1505px;
+    height: 252px;
+    background-color:#EEE1FF;
+    color:#242565;
+}
+.brand h1{
+    display:flex;
+    justify-content:center;
+    padding-top:82px;
+}
+.brand p{
+    color:#6A6A6A;
+    display:flex;
+    justify-content:center;
+    margin:0px;
+}
+.brand-img img{
+    margin:50px;
+}
+.brand-img {
+    display:flex;
+}
+.edit-size{
+    width: 182px;
+    height: 68px;
+    padding-top: 37px;
+}
+.blog{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+}
+.blog h1{
+  color: #3D37F1;
+  font-size:40px;
+}
+.Blog p{
+    font-size: 18px;
+    position: relative;
+    bottom: 184px;
+    left: 520px;
+    color:#6A6A6A;
+    width:500px;
+}
+
