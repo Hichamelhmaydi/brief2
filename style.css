@@ -64,7 +64,7 @@ ul li a{
     left:200px;
     top:200px;
 }
-pre{
+.sbs-mtv{
     position:absolute;
     left:900px;
     top:250px;
@@ -74,7 +74,7 @@ pre{
     line-height:48.72px;
 
 }
-p{
+.look-no{
     position:absolute;
     left:900px;
     top:388px;
@@ -185,4 +185,27 @@ label{
     justify-content:space-between;
     width: 1341px;
 
+}
+.Upcoming-img{
+    width:1086px;
+    height:949px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
+margin:30px 0px 0px 114px;
+}
+.Upcoming-img img{
+    width:300px;
+    height:334.52;
+    margin:20px;
+}
+.upcoing-text{
+    width: 211px;
+    height: 44px;
+}
+.imge p{
+    padding-left: 97px;
+    margin-top: -21px;
+    font-weight:500;
+    font-family: sans-serif;
 }
