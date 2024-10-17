@@ -187,7 +187,7 @@ label{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows:repeat(2,1fr);
-margin:30px 0px 0px 114px;
+    margin:30px 0px 0px 114px;
 }
 .Upcoming-img img{
     width:300px;
@@ -286,7 +286,7 @@ margin:30px 0px 0px 114px;
     justify-content:center;
     padding-top:82px;
 }
-.brand p{
+.brand-text{
     color:#6A6A6A;
     display:flex;
     justify-content:center;
@@ -321,4 +321,56 @@ margin:30px 0px 0px 114px;
     color:#6A6A6A;
     width:500px;
 }
+.blog-imge{
+    width:1100px;
+    height:500px;
+    display: flex;
+    margin-left:200px;
+    margin-top: -143px;
+    justify-content:space-around;
+}
+.blog-imge img{
+    width: 343px;
+    height: 210px;
+    border-radius: 20px;
+    
+} 
+.blog-imge p{
+    font-size:20px;
+    font-weight: 500;
+    line-height:150%;
+}
+.text-one{
+    color: #242565;
+    position: relative;
+    left: 217px;
+    bottom: 296px;
+    width: 326px;
+    line-height: 150%;
 
+}
+.text-toow{
+    color: #242565;
+    position: relative;
+    left: 583px;
+    bottom: 530px;
+    width: 326px;
+    line-height: 150%;
+}
+.text-three{
+    color: #242565;
+    position: relative;
+    left: 950px;
+    bottom: 762px;
+    width: 326px;
+    line-height:150%;
+}
+.text-one h6{
+    color:#A5A5A5;
+}
+.text-toow h6{
+    color:#A5A5A5;
+}
+.text-three h6{
+    color:#A5A5A5;
+}
