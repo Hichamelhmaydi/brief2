@@ -10,11 +10,11 @@ body{
     bottom:8px;
 }
 .bar-img{
-    width:1497px;
+    width:1504px;
     height:750px;
 }
 .back-img{
-    width:1497px;
+    width:1503px;
     height:750px;
     background-color:#5522CC;
     background-image:linear-gradient(to bottom right,#ED4690,#5522CC);
@@ -276,7 +276,7 @@ label{
     left: 979px;
 }
 .brand{
-    width: 1505px;
+    width: 1523px;
     height: 252px;
     background-color:#EEE1FF;
     color:#242565;
@@ -373,4 +373,127 @@ label{
 }
 .text-three h6{
     color:#A5A5A5;
+}
+.Blog{
+    height:751px;
+}
+.footer{
+    width:1465px;
+    height:441px;
+    background-color:#0A075F;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(4,333px 121px 87px 364px);
+}
+
+.eventick{
+   width: 320px;
+   height: 197px;
+}
+.eventick-image{
+    width: 182.44px;
+    height: 45.44px;
+}
+.eventick p{
+    font-size:14px;
+    line-height:22px;
+    font-weight:400;
+    color:#F3F3F3;
+
+}
+.icon img{
+    margin:9px;
+}
+.Plan-Events{
+    width:121px;
+    height:159px;
+    color:#F3F3F3;
+    margin-left: 230px;
+}
+.Plan-Events h1{
+    font-size:18px;
+    font-weight:500;
+}
+.Plan-Events p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.Eventick-2{
+    width: 87px;
+    height: 243px;
+    color:#F3F3F3;
+    margin-left: 364px;
+    margin-top: -8px;
+}
+.Eventick-2 p {
+    width: 87px;
+    height: 196px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;   
+}
+.Stay-in-the-loop{
+    width: 364px;
+    height: 267.79px;
+    color: #F3F3F3;
+    margin-left: 476px;
+    margin-top: -8px;
+}
+.Stay-in-the-loop p{
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+}
+.email{
+    width: 364px;
+    height: 60.79px;
+    border-radius:50px;
+    background-color:#F1F1F1;
+    border:none;
+    outline:none;
+}
+.email::placeholder{
+    padding-left:20px;
+}
+.sub{
+    width:149.79px;
+    height:46.4px;
+    padding: 15.2px 30.4px 15.2px 30.4px;  
+    border-radius:50px;
+    background-color:#F5167E;
+    border:none;
+    outline:none;
+    font-size: 12.16px;
+    font-weight: 400;
+    line-height: 15.83px;
+    letter-spacing: 0.065em;
+    color:#F1F1F1;
+    position: relative;
+    left: 193px;
+    bottom: 56px;
+}
+.line{
+    position: relative;
+    top: 348px;
+    right: 681px;
+    width: 962px;
+    height:0px;
+}
+.Copyright {
+    position: relative;
+    top: 372px;
+    right: 681px;
+    width: 962px;
+    height:5px;
+}
+.Copyright p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color:#FEFEFE;
+}
+.speakers{
+    background-color:red;
 }
