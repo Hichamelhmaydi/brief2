@@ -48,6 +48,10 @@ ul li a{
     text-decoration:none;
     color: #fff;
 }
+button a{
+    text-decoration:none;
+    color: #fff;
+}
 .login-butt button{
     margin:35px;
     font-weight:500;
