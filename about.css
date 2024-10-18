@@ -18,6 +18,7 @@ ul{
     list-style-position: inherit;
 }
 ul li {
+    
     display: inline;
     margin: 35px;
     font-weight: 500;
@@ -37,7 +38,7 @@ ul li a{
     cursor: pointer;
     position: relative;
     top: -58px;
-    left: 1292px;
+    left: 1291px;
     width: 113.62px;
     height: 41px;
     background: none;
