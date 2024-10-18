@@ -3,6 +3,7 @@
     padding:0px;
     scrollbar-width:none;
     font-family:sans-serif;
+    
 }
 body img{
     width: 1528px;
@@ -18,9 +19,9 @@ form{
 
 }
 form h1{
-    padding:20px 20px 20px 77px ;
+    padding:20px 20px 20px 20px; 
     font-size:100px;
-    font-weight:500;
+    font-weight:700;
 }
 form input,button{
     margin:20px;
@@ -30,13 +31,13 @@ form input{
     height:73px;
     border-radius:50px;
     border:none; 
-    
 }
 form input::placeholder{
     padding-left:135px;
     font-size:20px;
     font-weight: 500;
     color:black;
+    font-weight:700;
 }
 form button{
     width:241px;
@@ -49,6 +50,7 @@ form button{
     color:black;
     margin-left: 68px;
     cursor: pointer;
+    font-weight:700;
 }
 
 .back-form{
