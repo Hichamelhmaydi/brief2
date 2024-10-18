@@ -52,13 +52,31 @@ form button{
 }
 
 .back-form{
-    width: 449px;
+    width: 497px;
     height: 540px;
     background-color: #fff;
     position: absolute;
     top: 10px;
-    left: 4px;
+    left: -52px;
     border-radius: 50px;
     opacity: 0.2;
-    z-index:-1;
+    z-index: -1;
+}
+.form-element img{
+    width:70px;
+    height:70px;
+    display:inline;
+    width: 70px;
+    height: 70px;
+    display: inline;
+}
+.account{
+    position: absolute;
+    left: -40px;
+    bottom: 260px;
+}
+.password{
+    position: absolute;
+    left: -40px;
+    bottom: 147px;
 }
